@@ -14,7 +14,7 @@ export default {
     rollupOptions: {
       // make sure to externalize deps that shouldn't be bundled
       // into your library
-      external: ['vue', '@vitejs/plugin-vue', '@vue/compiler-sfc'],
+      external: ['vue'],
       output: {
         // Provide global variables to use in the UMD build
         // for externalized deps
